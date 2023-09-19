@@ -1,6 +1,7 @@
 # Leaflet Challenge
 
-![1-Logo](https://user-images.githubusercontent.com/112406455/213352302-7e8b28e7-f59b-44a2-b791-8ba2b545095a.png)
+![image](https://github.com/AnaTipps/leaflet-challenge/assets/131827518/42d5434f-624c-4d8f-b56d-cd7947b6f28c)
+
 
 ## Background
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
@@ -19,16 +20,20 @@ The instructions for this activity are broken into two parts:
 
 ## Part 1: Create the Earthquake Visualization
 
-![image](https://user-images.githubusercontent.com/112406455/211964430-f40e7e53-51e9-4739-91d0-890cc084ac98.png)
+![image](https://github.com/AnaTipps/leaflet-challenge/assets/131827518/baa0b86c-5edd-4939-a5d2-ab0680aa3501)
+
 
 Your first task is to visualize an earthquake dataset. Complete the following steps:
 
 1. Get your dataset. To do so, follow these steps:
 
-    * The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and choose a dataset to visualize. The following image is an example screenshot of what appears when you visit this link:
-    ![image](https://user-images.githubusercontent.com/112406455/211963549-941d9a21-c3e8-49fa-8bf9-2920606e6633.png)
+    * The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+ page and choose a dataset to visualize. The following image is an example screenshot of what appears when you visit this link:
+   ![image](https://github.com/AnaTipps/leaflet-challenge/assets/131827518/d9a4091c-77b5-43b6-a65d-d5cf091e908f)
+
     * When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization. The following image is a sampling of earthquake data in JSON format:
-    ![image](https://user-images.githubusercontent.com/112406455/211963665-fd72e5c6-01f0-4636-bbd6-2934a6b3a6b8.png)
+    ![image](https://github.com/AnaTipps/leaflet-challenge/assets/131827518/1b0a6cb9-4c2f-44be-b567-4e3c3029ceed)
+
   
 2. Import and visualize the data by doing the following:
 
@@ -49,7 +54,9 @@ Plot a second dataset on your map to illustrate the relationship between tectoni
 
 The following image is an example screenshot of what you should produce:
 
-![image](https://user-images.githubusercontent.com/112406455/211966598-580fa95d-a45a-4f66-ae53-78bd38957ad1.png)
+![image](https://github.com/AnaTipps/leaflet-challenge/assets/131827518/b0f57cf6-f38a-47ef-aa4a-f6797df7cdb4)
+
+
 
 Perform the following tasks:
 
@@ -60,9 +67,19 @@ Perform the following tasks:
   * Put each dataset into separate overlays that can be turned on and off independently.
 
   * Add layer controls to your map.
-  
-## File Organization and Structure
-* Located in the parent directory are three folders and the [index.html](https://github.com/AnaTipps/leaflet-challenge/blob/main/index.html) file
-* The [Leaflet-Part-1](https://github.com/AnaTipps/leaflet-challenge/tree/main/Leaflet-Part-1) folder contains a [js](https://github.com/AnaTipps/leaflet-challenge/tree/main/Leaflet-Part-1/js) folder that houses the [config.js](https://github.com/AnaTipps/leaflet-challenge/blob/main/Leaflet-Part-1/js/config.js) and the [logic.js](https://github.com/AnaTipps/leaflet-challenge/blob/main/Leaflet-Part-1/js/logic.js) files for part one of the challenge
-* The [Leaflet-Part-2](https://github.com/AnaTipps/leaflet-challenge/tree/main/Leaflet-Part-2) folder contains a [js](https://github.com/AnaTipps/leaflet-challenge/tree/main/Leaflet-Part-2/js) folder that houses the [logic2.js](https://github.com/AnaTipps/leaflet-challenge/blob/main/Leaflet-Part-2/js/logic2.js) file for part two of the challenge
-* The [css](https://github.com/AnaTipps/leaflet-challenge/tree/main/css) folder contains the [style.css](https://github.com/AnaTipps/leaflet-challenge/blob/main/css/style.css) file for styling of the map
+
+## Getting Started
+
+Prerequisites
+
+Make sure you have installed all of the following prerequisites on your development machine:
+
+Your favoriate code editor (e.g. VScode, etc.)
+A compatible browser (e.g. Google Chrome, etc.)
+
+Get a mapbox API key
+ 
+    Add and save your API key inside of a config.js file inside of the Static\Leaflet-Part-1\js folder
+ 
+    export const api_key = "your API key"
+
